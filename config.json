@@ -12,9 +12,8 @@
     "fileNameRecordTemplate": "{{ roomId }}-{{ name }}/录制-{{ roomId }}-{{ \"now\" | format_date: \"yyyyMMdd-HHmmss\" }}-{{ title }}.flv"
   },
   "rooms": [
-    {
-      "roomId": 123456,
-      "autoRecord": true
-    }
+    { "roomId": 302670, "autoRecord": true },
+    { "roomId": 4339349, "autoRecord": true },
+    { "roomId": 21577332, "autoRecord": true }
   ]
 }
