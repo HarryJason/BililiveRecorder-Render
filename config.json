@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "global": {
+    "workDirectory": "/rec",
+    "recordMode": "Standard",
+    "cuttingMode": "ByTime",
+    "cuttingNumber": 3600,
+    "recordDanmaku": true,
+    "recordDanmakuSuperChat": true,
+    "recordDanmakuGift": true,
+    "recordDanmakuGuard": true,
+    "fileNameRecordTemplate": "{{ roomId }}-{{ name }}/录制-{{ roomId }}-{{ \"now\" | format_date: \"yyyyMMdd-HHmmss\" }}-{{ title }}.flv"
+  },
+  "rooms": [
+    {
+      "roomId": 123456,
+      "autoRecord": true
+    }
+  ]
+}
